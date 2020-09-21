@@ -11,7 +11,7 @@ using the Infineon Blockchain Security 2Go starter kit cards:
 - visualize the keys as an ethereum address (QR-Code)
 
 
-If you want to have more information on Infineon's Blockchain Security 2Go starter kit visit the [official Website](https://www.infineon.com/blockchain) and the [BlockchainSecurity 2Go github repository](https://github.com/Infineon/blockchain). On this repository there is also a high-level [user guide](https://github.com/Infineon/Blockchain/blob/master/doc/BlockchainSecurity2Go_UserManual.pdf) for the Coinfinity Blockchain Security 2Go Example App.
+If you want to have more information on Infineon's Blockchain Security 2Go starter kit visit the [official Website](https://www.infineon.com/blockchain) and the [BlockchainSecurity 2Go github repository](https://github.com/Infineon/blockchain).
 
 How it works
 ---
