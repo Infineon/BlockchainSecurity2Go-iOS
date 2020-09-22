@@ -1,0 +1,37 @@
+/* 
+  Localizable.strings
+  BlockchainSecurity2Go
+
+  Created by Infineon on 16/09/20.
+  Copyright © 2020 Infineon Technologies. All rights reserved.
+*/
+
+"app_name_full" = "Blockchain Security2Go iOS";
+"tag_scan_prompt" = "Scan your Blockchain Security2Go card";
+"err_multiple_tags" = "Multiple cards found. Scan only 1 card.";
+"starter_kit" = "Blockchain Security2Go Starter Kit";
+"copied_title" = "Copied to clipboard";
+"copied_message" = "This ethereum address is copied to the clipboard";
+"ok" = "OK";
+"no_nfc_title" = "NFC Not Supported";
+"no_nfc_message" = "This device doesn't support NFC";
+"detect_failure" = "Failed to detect card. ";
+"timestamp_prefix" = "Card scanned on ";
+"read_failure" = "Failed to process card. ";
+"read_success" = "Completed successfully";
+"address_compute_failure" = "Problem in generating ethereum address.";
+"key_parse_failure" = "Problem in extracting public-key from response.";
+
+// About page elements
+"link_section_blockchain" = "Blockchain Security2Go";
+"link_section_infineon" = "Infineon Technologies AG";
+"link_ifx_blockchain" = "Blockchain Security2Go Starter Kit";
+"link_git_blockchain" = "GitHub - Infineon Blockchain";
+"link_git_blockchain_android" = "GitHub - Blockchain Android App";
+"link_git_blockchain_ios" = "GitHub - Blockchain iOS App";
+"link_git_blockchain_python" = "GitHub - Blockchain Python Library";
+"link_ifx_web" = "Visit our website";
+"link_ifx_facebook" = "Like us on Facebook";
+"link_ifx_twitter" = "Follow us on Twitter";
+
+

@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A06A48A2512152400B7C83C /* NFCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A06A4892512152400B7C83C /* NFCHelper.swift */; };
+		8A06A48C251258D700B7C83C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A06A48B251258D700B7C83C /* Localizable.strings */; };
+		8A06A48F2512716200B7C83C /* CommandHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A06A48E2512716200B7C83C /* CommandHandler.swift */; };
+		8A06A491251272AC00B7C83C /* APDUCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A06A490251272AC00B7C83C /* APDUCommand.swift */; };
+		8A06A493251272B800B7C83C /* APDUResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A06A492251272B800B7C83C /* APDUResponse.swift */; };
+		8A06A4952512832D00B7C83C /* BlockchainCommandHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A06A4942512832D00B7C83C /* BlockchainCommandHandler.swift */; };
+		8A22DC8F24EE85C500A748E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22DC8E24EE85C500A748E1 /* AppDelegate.swift */; };
+		8A22DC9124EE85C500A748E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22DC9024EE85C500A748E1 /* SceneDelegate.swift */; };
+		8A22DC9324EE85C500A748E1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22DC9224EE85C500A748E1 /* MainViewController.swift */; };
+		8A22DC9624EE85C500A748E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A22DC9424EE85C500A748E1 /* Main.storyboard */; };
+		8A22DC9824EE85C600A748E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A22DC9724EE85C600A748E1 /* Assets.xcassets */; };
+		8A22DC9B24EE85C600A748E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A22DC9924EE85C600A748E1 /* LaunchScreen.storyboard */; };
+		8A365AD4251305EF00CB778A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A365AD3251305EF00CB778A /* Utils.swift */; };
+		8A365ADB251371BB00CB778A /* CryptoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A365ADA251371BB00CB778A /* CryptoUtils.swift */; };
+		8A365ADF2513814700CB778A /* keccak-tiny.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A365ADE2513814700CB778A /* keccak-tiny.c */; };
+		8A365AE1251381D700CB778A /* SHA3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A365AE0251381D700CB778A /* SHA3.swift */; };
+		8A9A58732515117700F9844B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A58722515117700F9844B /* AboutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A06A4892512152400B7C83C /* NFCHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCHelper.swift; sourceTree = "<group>"; };
+		8A06A48B251258D700B7C83C /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		8A06A48E2512716200B7C83C /* CommandHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandHandler.swift; sourceTree = "<group>"; };
+		8A06A490251272AC00B7C83C /* APDUCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APDUCommand.swift; sourceTree = "<group>"; };
+		8A06A492251272B800B7C83C /* APDUResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APDUResponse.swift; sourceTree = "<group>"; };
+		8A06A4942512832D00B7C83C /* BlockchainCommandHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainCommandHandler.swift; sourceTree = "<group>"; };
+		8A22DC8B24EE85C500A748E1 /* Security2Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Security2Go.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A22DC8E24EE85C500A748E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A22DC9024EE85C500A748E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A22DC9224EE85C500A748E1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8A22DC9524EE85C500A748E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A22DC9724EE85C600A748E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A22DC9A24EE85C600A748E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A22DC9C24EE85C600A748E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A22DCA224EE885300A748E1 /* BlockchainSecurity2Go.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlockchainSecurity2Go.entitlements; sourceTree = "<group>"; };
+		8A365AD3251305EF00CB778A /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8A365AD625136F8300CB778A /* BlockchainSecurity2Go-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockchainSecurity2Go-Bridging-Header.h"; sourceTree = "<group>"; };
+		8A365ADA251371BB00CB778A /* CryptoUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoUtils.swift; sourceTree = "<group>"; };
+		8A365ADD2513814700CB778A /* keccak-tiny.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "keccak-tiny.h"; sourceTree = "<group>"; };
+		8A365ADE2513814700CB778A /* keccak-tiny.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "keccak-tiny.c"; sourceTree = "<group>"; };
+		8A365AE0251381D700CB778A /* SHA3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA3.swift; sourceTree = "<group>"; };
+		8A9A58722515117700F9844B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A22DC8824EE85C500A748E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A06A48625120C8100B7C83C /* NFC */ = {
+			isa = PBXGroup;
+			children = (
+				8A06A4892512152400B7C83C /* NFCHelper.swift */,
+			);
+			path = NFC;
+			sourceTree = "<group>";
+		};
+		8A06A48D2512706E00B7C83C /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				8A06A48E2512716200B7C83C /* CommandHandler.swift */,
+				8A06A490251272AC00B7C83C /* APDUCommand.swift */,
+				8A06A492251272B800B7C83C /* APDUResponse.swift */,
+				8A06A4942512832D00B7C83C /* BlockchainCommandHandler.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		8A22DC8224EE85C500A748E1 = {
+			isa = PBXGroup;
+			children = (
+				8A22DC8D24EE85C500A748E1 /* BlockchainSecurity2Go */,
+				8A22DC8C24EE85C500A748E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A22DC8C24EE85C500A748E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A22DC8B24EE85C500A748E1 /* Security2Go.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A22DC8D24EE85C500A748E1 /* BlockchainSecurity2Go */ = {
+			isa = PBXGroup;
+			children = (
+				8A9A58712515103000F9844B /* ViewControllers */,
+				8A365AD525136F6900CB778A /* Crypto */,
+				8A365AD2251305D500CB778A /* Utils */,
+				8A06A48D2512706E00B7C83C /* Commands */,
+				8A06A48625120C8100B7C83C /* NFC */,
+				8A22DCA224EE885300A748E1 /* BlockchainSecurity2Go.entitlements */,
+				8A22DC8E24EE85C500A748E1 /* AppDelegate.swift */,
+				8A22DC9024EE85C500A748E1 /* SceneDelegate.swift */,
+				8A22DC9424EE85C500A748E1 /* Main.storyboard */,
+				8A22DC9724EE85C600A748E1 /* Assets.xcassets */,
+				8A22DC9924EE85C600A748E1 /* LaunchScreen.storyboard */,
+				8A22DC9C24EE85C600A748E1 /* Info.plist */,
+				8A06A48B251258D700B7C83C /* Localizable.strings */,
+			);
+			path = BlockchainSecurity2Go;
+			sourceTree = "<group>";
+		};
+		8A365AD2251305D500CB778A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A365AD3251305EF00CB778A /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8A365AD525136F6900CB778A /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				8A365ADC2513812000CB778A /* keccak-tiny */,
+				8A365AD625136F8300CB778A /* BlockchainSecurity2Go-Bridging-Header.h */,
+				8A365ADA251371BB00CB778A /* CryptoUtils.swift */,
+				8A365AE0251381D700CB778A /* SHA3.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		8A365ADC2513812000CB778A /* keccak-tiny */ = {
+			isa = PBXGroup;
+			children = (
+				8A365ADD2513814700CB778A /* keccak-tiny.h */,
+				8A365ADE2513814700CB778A /* keccak-tiny.c */,
+			);
+			path = "keccak-tiny";
+			sourceTree = "<group>";
+		};
+		8A9A58712515103000F9844B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A22DC9224EE85C500A748E1 /* MainViewController.swift */,
+				8A9A58722515117700F9844B /* AboutViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A22DC8A24EE85C500A748E1 /* BlockchainSecurity2Go */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A22DC9F24EE85C600A748E1 /* Build configuration list for PBXNativeTarget "BlockchainSecurity2Go" */;
+			buildPhases = (
+				8A22DC8724EE85C500A748E1 /* Sources */,
+				8A22DC8824EE85C500A748E1 /* Frameworks */,
+				8A22DC8924EE85C500A748E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockchainSecurity2Go;
+			productName = testnfc;
+			productReference = 8A22DC8B24EE85C500A748E1 /* Security2Go.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A22DC8324EE85C500A748E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Infineon Technologies";
+				TargetAttributes = {
+					8A22DC8A24EE85C500A748E1 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = 8A22DC8624EE85C500A748E1 /* Build configuration list for PBXProject "BlockchainSecurity2Go" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A22DC8224EE85C500A748E1;
+			productRefGroup = 8A22DC8C24EE85C500A748E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A22DC8A24EE85C500A748E1 /* BlockchainSecurity2Go */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A22DC8924EE85C500A748E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A22DC9B24EE85C600A748E1 /* LaunchScreen.storyboard in Resources */,
+				8A06A48C251258D700B7C83C /* Localizable.strings in Resources */,
+				8A22DC9824EE85C600A748E1 /* Assets.xcassets in Resources */,
+				8A22DC9624EE85C500A748E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A22DC8724EE85C500A748E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A06A493251272B800B7C83C /* APDUResponse.swift in Sources */,
+				8A06A48A2512152400B7C83C /* NFCHelper.swift in Sources */,
+				8A06A48F2512716200B7C83C /* CommandHandler.swift in Sources */,
+				8A365AE1251381D700CB778A /* SHA3.swift in Sources */,
+				8A22DC9324EE85C500A748E1 /* MainViewController.swift in Sources */,
+				8A06A491251272AC00B7C83C /* APDUCommand.swift in Sources */,
+				8A365ADB251371BB00CB778A /* CryptoUtils.swift in Sources */,
+				8A365AD4251305EF00CB778A /* Utils.swift in Sources */,
+				8A22DC8F24EE85C500A748E1 /* AppDelegate.swift in Sources */,
+				8A365ADF2513814700CB778A /* keccak-tiny.c in Sources */,
+				8A06A4952512832D00B7C83C /* BlockchainCommandHandler.swift in Sources */,
+				8A9A58732515117700F9844B /* AboutViewController.swift in Sources */,
+				8A22DC9124EE85C500A748E1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A22DC9424EE85C500A748E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A22DC9524EE85C500A748E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A22DC9924EE85C600A748E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A22DC9A24EE85C600A748E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A22DC9D24EE85C600A748E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A22DC9E24EE85C600A748E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A22DCA024EE85C600A748E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BlockchainSecurity2Go/BlockchainSecurity2Go.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RS344Z6G8R;
+				INFOPLIST_FILE = BlockchainSecurity2Go/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infineon.nfc;
+				PRODUCT_NAME = Security2Go;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlockchainSecurity2Go/Crypto/BlockchainSecurity2Go-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A22DCA124EE85C600A748E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BlockchainSecurity2Go/BlockchainSecurity2Go.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RS344Z6G8R;
+				INFOPLIST_FILE = BlockchainSecurity2Go/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infineon.nfc;
+				PRODUCT_NAME = Security2Go;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlockchainSecurity2Go/Crypto/BlockchainSecurity2Go-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A22DC8624EE85C500A748E1 /* Build configuration list for PBXProject "BlockchainSecurity2Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A22DC9D24EE85C600A748E1 /* Debug */,
+				8A22DC9E24EE85C600A748E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A22DC9F24EE85C600A748E1 /* Build configuration list for PBXNativeTarget "BlockchainSecurity2Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A22DCA024EE85C600A748E1 /* Debug */,
+				8A22DCA124EE85C600A748E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A22DC8324EE85C500A748E1 /* Project object */;
+}
