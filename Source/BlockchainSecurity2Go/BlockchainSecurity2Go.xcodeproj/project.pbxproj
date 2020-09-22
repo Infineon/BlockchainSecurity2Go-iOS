@@ -20,7 +20,6 @@
 		8A22DC9824EE85C600A748E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A22DC9724EE85C600A748E1 /* Assets.xcassets */; };
 		8A22DC9B24EE85C600A748E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A22DC9924EE85C600A748E1 /* LaunchScreen.storyboard */; };
 		8A365AD4251305EF00CB778A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A365AD3251305EF00CB778A /* Utils.swift */; };
-		8A365ADB251371BB00CB778A /* CryptoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A365ADA251371BB00CB778A /* CryptoUtils.swift */; };
 		8A365ADF2513814700CB778A /* keccak-tiny.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A365ADE2513814700CB778A /* keccak-tiny.c */; };
 		8A365AE1251381D700CB778A /* SHA3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A365AE0251381D700CB778A /* SHA3.swift */; };
 		8A9A58732515117700F9844B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A58722515117700F9844B /* AboutViewController.swift */; };
@@ -44,7 +43,6 @@
 		8A22DCA224EE885300A748E1 /* BlockchainSecurity2Go.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlockchainSecurity2Go.entitlements; sourceTree = "<group>"; };
 		8A365AD3251305EF00CB778A /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		8A365AD625136F8300CB778A /* BlockchainSecurity2Go-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockchainSecurity2Go-Bridging-Header.h"; sourceTree = "<group>"; };
-		8A365ADA251371BB00CB778A /* CryptoUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoUtils.swift; sourceTree = "<group>"; };
 		8A365ADD2513814700CB778A /* keccak-tiny.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "keccak-tiny.h"; sourceTree = "<group>"; };
 		8A365ADE2513814700CB778A /* keccak-tiny.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "keccak-tiny.c"; sourceTree = "<group>"; };
 		8A365AE0251381D700CB778A /* SHA3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA3.swift; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 			children = (
 				8A365ADC2513812000CB778A /* keccak-tiny */,
 				8A365AD625136F8300CB778A /* BlockchainSecurity2Go-Bridging-Header.h */,
-				8A365ADA251371BB00CB778A /* CryptoUtils.swift */,
 				8A365AE0251381D700CB778A /* SHA3.swift */,
 			);
 			path = Crypto;
@@ -233,7 +230,6 @@
 				8A365AE1251381D700CB778A /* SHA3.swift in Sources */,
 				8A22DC9324EE85C500A748E1 /* MainViewController.swift in Sources */,
 				8A06A491251272AC00B7C83C /* APDUCommand.swift in Sources */,
-				8A365ADB251371BB00CB778A /* CryptoUtils.swift in Sources */,
 				8A365AD4251305EF00CB778A /* Utils.swift in Sources */,
 				8A22DC8F24EE85C500A748E1 /* AppDelegate.swift in Sources */,
 				8A365ADF2513814700CB778A /* keccak-tiny.c in Sources */,
