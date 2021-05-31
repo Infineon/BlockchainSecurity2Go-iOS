@@ -18,15 +18,3 @@ How it works
 
 The app is communicating with the card via NFC to generate new private/public keys, 
 read the public keys and visualizes the Ethereum address with an QR-Code.
-
-
-Getting Started
----
-
-
-  
-
-iOS Device Requirements
----
-
-NFC is available since iOS Version ...
